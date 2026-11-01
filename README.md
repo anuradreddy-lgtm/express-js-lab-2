@@ -45,7 +45,7 @@ lab-02/
      npm run dev
      ```
 
-The server runs at: `http://localhost:3000/`
+The server runs at: `http://localhost:3000/` by default. On hosting platforms such as Render, it uses the `PORT` environment variable provided by the platform.
 
 ## Database Schema
 
@@ -123,4 +123,3 @@ The database is stored in `bookStore.db` with a table named `book`:
 ### Delete Book (DELETE)
 ![Delete](screenshots/delete.png)
 ![Delete Result](screenshots/delete%201.png)
-

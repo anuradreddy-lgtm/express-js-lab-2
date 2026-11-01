@@ -11,8 +11,9 @@ const initializeDBAndServer = async () => {
   try {
     db = await initializeDatabase();
 
-    app.listen(3000, () => {
-      console.log("Server Running at http://localhost:3000/");
+    const port = process.env.PORT || 3000;
+    app.listen(port, () => {
+      console.log(`Server Running on port ${port}`);
     });
   } catch (error) {
     console.log(`Database Error: ${error.message}`);
@@ -98,4 +99,3 @@ app.delete("/books/:bookId/", async (request, response) => {
 });
 
 module.exports = app;
-
