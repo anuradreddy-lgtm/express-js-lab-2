@@ -1,4 +1,4 @@
-**Live Demo:** https://express-js-6hbe.onrender.com/
+**Live Demo:** https://express-js-lab-2-1.onrender.com/
 # Lab 02: Bookstore CRUD API with Express and SQLite
 
 **Name:** ANURAD.P  
